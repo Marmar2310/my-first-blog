@@ -9,16 +9,12 @@
                     <a href = "https://www.youtube.com/watch?v=SWJcenj6lsQ"> Hala Madrid!</a>
                 </p>
         </div>
-
-        <div>
-            <h2>Zidane's tactics</h2>
-            <p>My guy Zizou had some mad coaching talents</p>
-        </div>
-
-        <div>
-            <h2>Ultimate leadership</h2>
-            <p>Ramos and Benzema can lead this team to victory</p>
-        </div>
-
+        {% for post in posts %}
+            <div>
+                <p>published: {{ post.published_date }}</p>
+                <h2><a href="">{{ post.title }}</a></h2>
+                <p>{{ post.text|linebreaksbr }}</p>
+            </div>
+        {% endfor %}
     </body>
 </html>
