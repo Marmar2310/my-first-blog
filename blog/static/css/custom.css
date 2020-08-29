@@ -1,0 +1,25 @@
+body {
+    background-color: #000000;
+    font-family: "Lucida Console", Monaco, monospace;
+}
+
+h1 {
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.green {
+    color: #4fd642;
+}
+
+.post-loca {
+    padding-top: 20px;
+}
+
+.white {
+    color: #ffffff;
+}
+
+.orange {
+    color: #f5a300;
+}
